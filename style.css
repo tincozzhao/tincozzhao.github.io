@@ -1,16 +1,20 @@
-#navBar {
+#links {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     background-color: lightgreen;
     margin: 0;
     padding: 0;
 }
 
-#navBar li {
+#links li {
     display: inline;
 }
 
 nav {
-    display: inline-block;
-    position: absolute;
+    /* position: fixed; */
+    width: 100%;
+    background-color: cornflowerblue;
+    align-items: center;
+   display: flex;
+   justify-content: space-between;
 }
